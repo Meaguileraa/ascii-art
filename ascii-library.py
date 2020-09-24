@@ -1,39 +1,25 @@
 
 
-class Canvas: 
+def create_canvas():
+    """Creates the canvas."""
 
-    def __init__
+    row = [' ',' ',' ',' ',' ',' ',' ',' ',' ',' '] 
+    canvas_grid = []
 
-    def add 
+    for i in range(10):
+        canvas_grid.append(row)
 
-    def clear 
-
-    def render 
-
-    def get_char_for_cell 
-
-    
-
-
+    for i in range(len(canvas_grid)):
+        print(canvas_grid[i])
+    return canvas_grid
+create_canvas()
 
 
 
-class Shape:
-
-    def covering_pixel 
-
-    def set_fill_char
+# def create_rectangle():
 
 
-class Rectangle(Shape):
-
-    def __init__
-
-    def covering_pixel 
-
-    def translate 
-
-
+# def change_char():
 
 
 
